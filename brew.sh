@@ -51,6 +51,7 @@ brew install woff2
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
 brew install aircrack-ng
+brew cask install java # bfg dependency
 brew install bfg
 brew install binutils
 brew install binwalk
@@ -72,6 +73,7 @@ brew install tcpflow
 brew install tcpreplay
 brew install tcptrace
 brew install ucspi-tcp # `tcpserver` etc.
+brew cask install xquartz # xpdf and openmotif dependency
 brew install xpdf
 brew install xz
 
@@ -92,6 +94,10 @@ brew install ssh-copy-id
 brew install tree
 brew install vbindiff
 brew install zopfli
+
+# Install casks
+brew cask install atom
+brew cask install google-chrome
 
 # Remove outdated versions from the cellar.
 brew cleanup
