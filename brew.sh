@@ -94,10 +94,14 @@ brew install ssh-copy-id
 brew install tree
 brew install vbindiff
 brew install zopfli
+brew install nvm
 
 # Install casks
 brew cask install atom
 brew cask install google-chrome
+brew cask install slack
+brew cask install firestormos
+brew cask install duet
 
 # Remove outdated versions from the cellar.
 brew cleanup
